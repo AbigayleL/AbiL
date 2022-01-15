@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ebeced;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menu a {
+  background-color:#e5e5e5;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:#e5e5e5;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;color:#000000;">
+
+<div style="background-color:#e5e5e5;padding:15px;text-align:center;">
+  <h1>Project 1</h1>
+  <p>Last Update: Mar 2nd, 2021</p>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="p1App.html" >Demo</a>
+  </div>
+
+
+
+  <div class="main">
+    <h2>Summary: Wordless</h2>
+    <p>For this project, we were to create an interface that only uses sounds but not in the form of words or language as input. 
+      With the thought of the previous project, I wanted continue to explore design and animation in photoshop and use sounds and pictures.
+      For this idea, the user will use the mic to hum, sing or play any single note on an instrument and the note will be shown both as a key and a note on the piano. 
+      If preferred, the user will be able to also hear feedback in the form of a piano key.  
+    </p>
+
+    <p>
+      Here are the drawings used for the piano animation: 
+    </p>
+    <center> 
+      <div class="w3-content w3-container w3-padding-64" id="portfolio">  
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+        <div class="w3-row-padding w3-center">
+          <div class="w3-col m3">
+            <img src="C.jpg" style="width:100%" id = "c" alt="Design 1">
+          </div>
+      
+          <div class="w3-col m3">
+            <img src="Cs.jpg" style="width:100%" id = "cs" alt="Design 2">
+          </div>
+      
+          <div class="w3-col m3">
+            <img src="D.jpg" style="width:100%" id = "d" alt="Design 3">
+          </div>
+      
+          <div class="w3-col m3">
+            <img src="Ds.jpg" style="width:100%" id = "ds" alt="Design 4">
+          </div>
+        </div>
+      
+        <div class="w3-row-padding w3-center w3-section">
+          <div class="w3-col m3">
+            <img src="E.jpg" style="width:100%" id = "e" alt="Design 5">
+          </div>
+      
+          <div class="w3-col m3">
+            <img src="F.jpg" style="width:100%"  id = "f" alt="Design 6">
+          </div>
+      
+          <div class="w3-col m3">
+            <img src="Fs.jpg" style="width:100%" id = "fs"alt="Design 7">
+          </div>
+      
+          <div class="w3-col m3">
+            <img src="G.jpg" style="width:100%" id = "g" alt="Design 8">
+          </div>
+        </div>
+      
+        <div class="w3-row-padding w3-center">
+          <div class="w3-col m3">
+            <img src="Gs.jpg" style="width:100%" id = "gs" alt="Design 9">
+          </div>
+      
+          <div class="w3-col m3">
+            <img src="A.jpg" style="width:100%" id = "a" alt="Design 10">
+          </div>
+          <div class="w3-col m3">
+            <img src="As.jpg" style="width:100%" id = "as" alt="Design 10">
+          </div>
+          <div class="w3-col m3">
+            <img src="B.jpg" style="width:100%" id = "b" alt="Design 10">
+          </div>
+        </div>
+      
+      </div>
+      <p>
+        The added touch was adding a "pianoist" at the top of the screen that will continuously play the piano. Here are the drawings used for the piano character animation, on the top of the screen the images will switch back and forth every 0.5 seconds to make it seem like the girl is playing the piano: 
+      </p>
+      <img src="P1 PIANO1.png" style="width:40%">
+      <img src="P1 PIANO2.png" style="width:40%"> 
+      <center>    
+
+    <h2>Ideation & Sketches</h2>
+    <p>Here are some other ideas that I have come up with</p>
+    
+    <p>Variation Concept Sketches</p>
+
+    <div class="w3-content w3-container w3-padding-64" id="portfolio">  
+      <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+      <div class="w3-row-padding w3-center">
+        <div class="w3-col m3">
+          <img src="P1 D1.png" style="width:100%" alt="Design 1">
+          <p>General Idea, Humming</p>
+        </div>
+    
+        <div class="w3-col m3">
+          <img src="P1 D2.png" style="width:100%" alt="Design 2">
+          <p>App Use</p>
+        </div>
+    
+        <div class="w3-col m3">
+          <img src="P1 D3.png" style="width:100%" alt="Design 3">
+          <p> Another App Use, Piano</p>
+        </div>
+    
+        <div class="w3-col m3">
+          <img src="P1 D4.png" style="width:100%" alt="Design 4">
+          <p> App Use II</p>
+        </div>
+      </div>
+    
+      <div class="w3-row-padding w3-center w3-section">
+        <div class="w3-col m3">
+          <img src="P1S1.jpg" style="width:100%" alt="Design 5">
+          <p>Piano Design I</p>
+        </div>
+    
+        <div class="w3-col m3">
+          <img src="P1S2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Design 6">
+          <p> Final Piano Design</p>
+        </div>
+    
+        <div class="w3-col m3">
+          <img src="P1S3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Design 7">
+          <p>Website Looks</p>
+        </div>
+    
+        <div class="w3-col m3">
+          <img src="P1S4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Design 8">
+          <p>Final App Design</p>
+        </div>
+      </div>
+
+      <div class="w3-row-padding w3-center">
+        <div class="w3-col m3">
+          <img src="P1S5.jpg" style="width:100%" alt="Design 9">
+          <p>Another Animation Idea</p>
+        </div>
+
+        <div class="w3-col m3">
+          <img src="P1S6.jpg" style="width:100%" alt="Design 10">
+          <p>App Use, Guitar</p>
+        </div>
+
+      </div>
+    </div>    
+
+    <p>Varied Concept Sketches</p>
+    
+    <div class="w3-content w3-container w3-padding-64" id="portfolio">  
+      <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+      <div class="w3-row-padding w3-center">
+        <div class="w3-col m3">
+          <img src="P1V1.jpg" style="width:100%" alt="Design 1">
+          <p> Humming Animation Dance</p>
+        </div>
+    
+        <div class="w3-col m3">
+          <img src="P1V2.jpg" style="width:100%" alt="Design 2">
+          <p>Counting Music Beats</p>
+        </div>
+    
+        <div class="w3-col m3">
+          <img src="P1V3.jpg" style="width:100%" alt="Design 3">
+          <p>Guitar Tuner</p>
+        </div>
+    
+        <div class="w3-col m3">
+          <img src="P1V4.jpg" style="width:100%" alt="Design 4">
+          <p>Shazam App, What Song is Playing?</p>
+        </div>
+      </div>
+    
+      <div class="w3-row-padding w3-center w3-section">
+        <div class="w3-col m3">
+          <img src="P1V5.jpg" style="width:100%" alt="Design 5">
+          <p>Complaing App</p>
+        </div>
+    
+        <div class="w3-col m3">
+          <img src="P1V6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Design 6">
+          <p>Colour Waves thorugh Sound</p>
+        </div>
+    
+        <div class="w3-col m3">
+          <img src="P1V7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Design 7">
+          <p>Blabbling App</p>
+        </div>
+    
+        <div class="w3-col m3">
+          <img src="P1V8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Design 8">
+          <p>Light Switch</p>
+        </div>
+      </div>
+
+      <div class="w3-row-padding w3-center">
+        <div class="w3-col m3">
+          <img src="P1V9.jpg" style="width:100%" alt="Design 9">
+          <p>Battle App</p>
+        </div>
+
+        <div class="w3-col m3">
+          <img src="P1V10.jpg" style="width:100%" alt="Design 10">
+          <p>Basketball App</p>
+        </div>
+      </div>
+
+    </div>    
+
+
+    <h2>Demo & Download</h2>
+    <p>Click here to download the zip file</p>
+    <a href="abil-app.zip" download>
+        <button> Project 1 </button>
+
+    </a>
+    <p>A small demonstration on the project</p>
+    <video id = "Demo" width="1000" height="700" controls >
+      <source src="P1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+  </video>
+  </div>
+
+  <div class="right">
+
+    <h2>How to use</h2>
+    <p>Note: Android Chrome use, please use headsets with mic</p>
+    <p>1: Press the use demo then the live input audio before both can work</p>
+    <p>2: Click the use live input and accept the use of mic</p>
+    <p>3: Hum, Sing, or play any single key on an instrument</p>
+    <p>4: Click for audio playback to hear notes (Warning: only use for single key instruments, keep volume low)</p>
+  
+  </div>
+
+<p> Sources</p>
+            <p><a href="https://weheartit.com/entry/82706102">Drawing Reference 1</a></p>
+            <p><a href="https://www.pinterest.ca/pin/588493876281733235/ ">Drawing Reference 2</a></p>
+            <p><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query3">Webpage Template</a></p>
+            <p><a href="https://www.youtube.com/watch?v=heWugBnLQ6o ">Super Mario Music - But with edits</a></p>
+            <p><a href="https://github.com/cwilso/PitchDetect">Pitch Detection Code</a></p>
+
+</body>
+</html>
